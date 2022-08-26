@@ -1,0 +1,12 @@
+.page {
+  background-color: black;
+  font-family: 'Inter', sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+}
+
+.page__container {
+  margin: 0 auto;
+  color: white;
+  max-width: 880px;
+}
