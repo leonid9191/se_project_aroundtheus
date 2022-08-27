@@ -30,7 +30,6 @@
 }
 .profile__button-edit {
   padding: 0;
-  background: none;
   background: url("../images/pen.svg") no-repeat center;
   background-size: 10px;
   margin-left: 18px;
@@ -54,7 +53,6 @@
   height: 50px;
   border: 2px solid #ffffff;
   border-radius: 2px;
-  background: none;
   color: white;
   background: url("../images/plus.svg") no-repeat center;
   background-size: 22px;
