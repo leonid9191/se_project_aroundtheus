@@ -15,7 +15,6 @@
       <header class="header">
         <img src="./images/logo.svg" alt="logo" />
       </header>
-      <div class="devider"></div>
       <section class="profile">
         <img
           src="./images/jacques-cousteau.png"
@@ -24,30 +23,23 @@
         />
         <div class="profile__description">
           <div class="profile__wrapper">
-            <h2 class="profile__title">Jacques Cousteau</h2>
-            <button class="profile__button-edit">
-              <img
-                class="profile__button-image"
-                src="./images/edit_button.svg"
-                alt="button"
-              />
-            </button>
+            <h1 class="profile__title">Jacques Cousteau</h1>
+            <button type="button" class="profile__button-edit" />
           </div>
           <p class="profile__subtitle">Explorer</p>
         </div>
-        <button class="profile__button-add">
-					<span class="profile__plus"></span>
-				</button>
+        <button type="button" class="profile__button-add" />
       </section>
       <section class="gallery">
         <div class="card">
           <img
             src="./images/yosemite-valley.png"
             alt="Yosemite Valley"
-            class="card-img"
+            class="card__image"
           />
           <div class="card__description">
             <h2 class="card__title">Yosemite Valley</h2>
+            <!-- When I use property "background-image" for this button evrething work the same like with img tag, but in case with a long text, "heart" transpose to the right and overflow part is hidden -->
             <button class="card__button-like">
               <img
                 class="card__button-image"
@@ -61,7 +53,7 @@
           <img
             src="./images/lake-louise.png"
             alt="Lake Louise"
-            class="card-img"
+            class="card__image"
           />
           <div class="card__description">
             <h2 class="card__title">Lake Louise</h2>
@@ -78,7 +70,7 @@
           <img
             src="./images/bald-mountains.png"
             alt="Bald Mountains"
-            class="card-img"
+            class="card__image"
           />
           <div class="card__description">
             <h2 class="card__title">Bald Mountains</h2>
@@ -92,11 +84,7 @@
           </div>
         </div>
         <div class="card">
-          <img
-            src="./images/latemar.png"
-            alt="Latemar"
-            class="card-img"
-          />
+          <img src="./images/latemar.png" alt="Latemar" class="card__image" />
           <div class="card__description">
             <h2 class="card__title">Latemar</h2>
             <button class="card__button-like">
@@ -112,7 +100,7 @@
           <img
             src="./images/vanoise-national-park.png"
             alt="Vanoise National Park"
-            class="card-img"
+            class="card__image"
           />
           <div class="card__description">
             <h2 class="card__title">Vanoise National Park</h2>
@@ -129,7 +117,7 @@
           <img
             src="./images/lago-di-braies.png"
             alt="Lago di Braies"
-            class="card-img"
+            class="card__image"
           />
           <div class="card__description">
             <h2 class="card__title">Lago di Braies</h2>
@@ -144,8 +132,8 @@
         </div>
       </section>
       <footer class="footer">
-				<p class="footer__copyright">&copy; 2022 Around The U.S.</p>
-			</footer>
+        <p class="footer__copyright">&copy; 2022 Around The U.S.</p>
+      </footer>
     </div>
   </body>
 </html>

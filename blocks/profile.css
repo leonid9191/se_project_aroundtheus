@@ -12,7 +12,7 @@
 .profile__description {
   margin-left: 30px;
   flex-grow: 1;
-	min-width: 0;
+  min-width: 0;
 }
 
 .profile__wrapper {
@@ -21,20 +21,22 @@
 }
 
 .profile__title {
-	margin: 0;
-	font-family: 'Inter', sans-serif;
+  margin: 0;
   font-weight: 500;
-	font-size: 42px;
-	text-overflow: ellipsis;
+  font-size: 42px;
+  text-overflow: ellipsis;
   white-space: nowrap;
   overflow: hidden;
 }
 .profile__button-edit {
-	margin-left: 18px;
+  padding: 0;
+  background: none;
+  background: url("../images/pen.svg") no-repeat center;
+  background-size: 10px;
+  margin-left: 18px;
   width: 24px;
   height: 24px;
-  background: none;
-  border: none;
+  border: 1px solid white;
 }
 .profile__button-edit:hover {
   cursor: pointer;
@@ -43,38 +45,20 @@
 }
 
 .profile__subtitle {
-	margin: 16px 0  0;
+  margin: 16px 0 0;
 }
 .profile__button-add {
+  padding: 0;
   position: relative;
-	padding: 0;
   min-width: 150px;
   height: 50px;
   border: 2px solid #ffffff;
   border-radius: 2px;
   background: none;
   color: white;
+  background: url("../images/plus.svg") no-repeat center;
+  background-size: 22px;
 }
-.profile__plus{
-  width: 22px;
-  height: 22px;
-}
-.profile__plus::after, .profile__plus::before{
-  position: absolute;
-  top: 11px;
-  content: '';
-  height: 22px;
-  width: 2px;
-  background-color: white;
-}
-.profile__plus::before{
-  transform: rotate(90deg);
-}
-/* .profile__button-add::before{
-  width: 19px;
-  color: white;
-	content: "";
-} */
 
 .profile__button-add:hover {
   cursor: pointer;
@@ -82,8 +66,8 @@
   transition: 0.3s;
 }
 
-@media screen and (min-width:768px) and (max-width:1280px) {
-  .profile__title{
+@media screen and (min-width: 768px) and (max-width: 1279px) { 
+  .profile__title {
     font-size: 28px;
   }
 
@@ -93,12 +77,12 @@
   }
   .profile__button-add {
     min-width: 120px;
+    background-size: 18px;
   }
-
 }
 
-@media screen and (min-width:320px) and (max-width:768px) {
-  .profile{
+@media screen and (min-width: 320px) and (max-width: 767px) {
+  .profile {
     flex-direction: column;
   }
   .profile__title {
@@ -113,16 +97,16 @@
     margin-left: 10px;
     width: 18px;
     height: 18px;
+    background-size: 7.5px;
   }
 
-  .profile__subtitle{
+  .profile__subtitle {
     text-align: center;
   }
 
-  .profile__button-add{
+  .profile__button-add {
     margin-top: 36px;
     width: 100%;
+    background-size: 16px;
   }
 }
-
-
