@@ -44,11 +44,10 @@
 }
 
 .profile__subtitle {
-  margin: 16px 0 0;
+  margin: 8px 0 0;
 }
 .profile__button-add {
   padding: 0;
-  position: relative;
   min-width: 150px;
   height: 50px;
   border: 2px solid #ffffff;
@@ -88,7 +87,7 @@
   }
 
   .profile__description {
-    margin-top: 30px;
+    margin: 30px 0 0 0;
   }
 
   .profile__button-edit {
