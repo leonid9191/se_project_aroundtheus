@@ -3,11 +3,11 @@
   font-family: 'Inter', sans-serif;
   font-weight: 400;
   font-size: 18px;
+  color: white;
 }
 
 .page__container {
   margin: 0 auto;
-  color: white;
   max-width: 880px;
 }
 
